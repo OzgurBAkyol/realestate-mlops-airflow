@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/apache/airflow/main/docs/apache-airflow/img/logos/airflow_horizontal_color.png" height="60"/>
+  <img src="https://airflow.apache.org/images/airflow_logo.png" height="60"/>
   &nbsp;&nbsp;&nbsp;
   <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" height="60"/>
   &nbsp;&nbsp;&nbsp;
