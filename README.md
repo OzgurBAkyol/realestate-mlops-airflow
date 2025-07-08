@@ -1,12 +1,15 @@
-# 🏡 Real Estate ML Pipeline with Airflow & AWS
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/apache/airflow/main/docs/apache-airflow/img/logos/airflow_horizontal_color.png" height="50" />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" height="50" />
+  <img src="https://raw.githubusercontent.com/apache/airflow/main/docs/apache-airflow/img/logos/airflow_horizontal_color.png" height="60"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" height="60"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="60"/>
 </p>
 
+<h1 align="center">🏡 Real Estate ML Pipeline with Airflow & AWS</h1>
+
 ---
+
 
 ## 🚀 Overview
 This project is a fully automated real estate ETL + ML pipeline using **Airflow**, **AWS S3**, **Python**, and **Scikit-learn**.
