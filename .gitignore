@@ -1,20 +1,3 @@
-# Python
 __pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environment
 venv/
-
-# Config dosyaları
 config_api.json
-
-# AWS credentials (önlem)
-.aws/
-
-# VSCode ve IDE ayarları
-.vscode/
-.idea/
-
-# Diğer
-.DS_Store
