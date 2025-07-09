@@ -1,17 +1,15 @@
 <p align="center">
-  <img src="https://airflow.apache.org/images/airflow_logo.png" width="100"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" height="60"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" height="60"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://miro.medium.com/v2/resize:fit:802/format:webp/0*pxlnDm-ncQdC0UEL.png" height="60"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/AirflowLogo.svg/500px-AirflowLogo.svg.png" width="140"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://sourcebae.com/blog/wp-content/uploads/2023/08/1_b_al7C5p26tbZG4sy-CWqw.png" height="90"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://miro.medium.com/v2/resize:fit:802/format:webp/0*pxlnDm-ncQdC0UEL.png" height="90"/>
 </p>
 
 <h1 align="center">🏡 Real Estate ML Pipeline with Airflow & AWS</h1>
 
 <p align="center">
-  <b>End-to-end automated ETL + ML pipeline for real estate price prediction using Airflow, AWS S3, and scikit-learn.</b>
+  <b>End-to-end automated ETL and Machine Learning pipeline using Airflow, AWS S3, and Python.</b>
 </p>
 
 ---
