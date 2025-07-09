@@ -3,7 +3,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://sourcebae.com/blog/wp-content/uploads/2023/08/1_b_al7C5p26tbZG4sy-CWqw.png" height="90"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://miro.medium.com/v2/resize:fit:802/format:webp/0*pxlnDm-ncQdC0UEL.png" height="90"/>
+  <img src="https://miro.medium.com/v2/resize:fit:802/format:webp/0*pxlnDm-ncQdC0UEL.png" height="90"/>a
 </p>
 
 <h1 align="center">🏡 Real Estate ML Pipeline with Airflow & AWS</h1>
@@ -45,8 +45,30 @@ This project is a fully automated real estate ETL + ML pipeline using **Airflow*
 ## 🔄 DAG Flow
 
 ```mermaid
-graph TD;
-    A[Extract Data] --> B[Clean & Transform];
-    B --> C[Feature Engineering];
-    C --> D[Train ML Model];
-    D --> E[Predict and Save];
+flowchart TD
+    A[Extract Data] --> B[Clean & Transform]
+    B --> C[Feature Engineering]
+    C --> D[Train ML Model]
+    D --> E[Predict and Save]
+
+    subgraph Extract
+        A_note[Zillow API'den property verileri çekilir]
+    end
+    subgraph Clean
+        B_note[Null değerler temizlenir, formatlar düzeltilir]
+    end
+    subgraph Feature
+        C_note[One-hot encoding, yeni feature üretimi yapılır]
+    end
+    subgraph Train
+        D_note[RandomForest ile model eğitilir ve değerlendirilir]
+    end
+    subgraph Predict
+        E_note[Tahminler alınır ve S3'e yazılır]
+    end
+
+    A --> A_note
+    B --> B_note
+    C --> C_note
+    D --> D_note
+    E --> E_note
