@@ -52,19 +52,19 @@ flowchart TD
     D --> E[Predict and Save]
 
     subgraph Extract
-        A_note[Zillow API'den property verileri çekilir]
+        A_note[Fetch property data from Zillow API]
     end
     subgraph Clean
-        B_note[Null değerler temizlenir, formatlar düzeltilir]
+        B_note[Remove nulls, standardize formats]
     end
     subgraph Feature
-        C_note[One-hot encoding, yeni feature üretimi yapılır]
+        C_note[One-hot encoding and custom feature creation]
     end
     subgraph Train
-        D_note[RandomForest ile model eğitilir ve değerlendirilir]
+        D_note[Train a RandomForest model, evaluate performance]
     end
     subgraph Predict
-        E_note[Tahminler alınır ve S3'e yazılır]
+        E_note[Make predictions and write results to S3]
     end
 
     A --> A_note
